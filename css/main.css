@@ -1,396 +1,859 @@
-
-@font-face {
-  font-family: 'Rajdhani-Light';
-  src: url('../fonts/Rajdhani-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Rajdhani-Light.woff') format('woff'), url('../fonts/Rajdhani-Light.ttf')  format('truetype'), url('../fonts/Rajdhani-Light.svg#Rajdhani-Light') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'OpenSans-Bold';
-  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf')  format('truetype'), url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Rajdhani-Regular';
-  src: url('../fonts/Rajdhani-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Rajdhani-Regular.woff') format('woff'), url('../fonts/Rajdhani-Regular.ttf')  format('truetype'), url('../fonts/Rajdhani-Regular.svg#Rajdhani-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Rajdhani-Bold';
-  src: url('../fonts/Rajdhani-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Rajdhani-Bold.woff') format('woff'), url('../fonts/Rajdhani-Bold.ttf')  format('truetype'), url('../fonts/Rajdhani-Bold.svg#Rajdhani-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'OpenSans';
-  src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans.woff') format('woff'), url('../fonts/OpenSans.ttf')  format('truetype'), url('../fonts/OpenSans.svg#OpenSans') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-
-
-.navbar-opacity{
-	background-color: transparent;
-  position: absolute;
-  width: 100%;
-  border: none;
-  z-index: 10;
-  margin-top: 0.8%;
-}
-
-.slider-home{
-	background-image: url('../img/slider-home.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 30%;
-  padding-bottom: 30%;
-}
-
-.franja-verde{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 34%;
-}
-
-img.logo-talentos{
-	width: 100%;
-}
-
-.pading-barra{
-	padding-top: 2.5%;
-}
-
-.estilogeneral>li>a{
-	color: white !important;
-	font-family: 'Rajdhani-Regular';
-	font-size: 18px;
-	padding: 10px 30px;
-}
-
-.absolute{
-	right: 0;
-  position: absolute;
-}
-
-.colorwhite{
-	color: white;
-}
-
-.RajdhaniLIGHT53px h2{
-	font-size: 53px;
-	font-family: 'Rajdhani-Light';
-	font-weight: 700;
-}
-
-.RajdhaniLIGHT53px span {
-  font-family: 'OpenSans-Bold';
-}
-
-.cuadro-opacity{
-	background-color: #15202a;
-  opacity: 0.7;
-  padding-left: 5%;
-  padding-right: 6%;
-  padding-bottom: 1%;
-}
-
-.div-green{
-	width: 100%;
-  background-color: #79cc00;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  z-index: 10;
-  margin-top: 1%;
-  position: absolute;
-  right: 0%;
-}
-
-button.unete{
-	position: absolute;
-  padding-top: 0.5%;
-  padding-bottom: 0.5%;
-  right: 8.5%;
-  background: #161719;
-  width: 21%;
-  color: white;
-  border-radius: 20px;
-  top: 116%;
-  border: none;
-  font-size: 28px;
-  font-family: 'Rajdhani-Bold';
-}
-
-.text-center{
-  text-align: center;
-}
-
-.Rajdhanibold20px h1{
-  font-size: 62px;
-  font-family: 'Rajdhani-Bold';
-}
-
-.opensans21px p{
-  font-size: 21px;
-  font-family: 'OpenSans';
-}
-
-.colorgreenh1 h1{
-  color: #79cc00;
-}
-
-.colorgrayp p{
-  color: #c4c5c7;
-}
-
-.padinggeneral{
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-.estilos-header h2{
-  padding-left: 14%;
-  padding-right: 14%;
-}
-
-.estilos-header h1{
-  padding-bottom: 2%;
-}
-
-.estilos-header p {
-  padding-left: 14%;
-  padding-right: 14%;
-}
-
-.banner-futbolista{
-  background-image: url('../img/banner.-sobre.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-.opensansbold60px h1{
-  color: #79cc00;
-  font-family: 'OpenSans-Bold';
-  font-size: 60px;
-}
-
-.opensansbold60px h2{
-  font-family: 'OpenSans-Bold';
-  font-size: 60px;
-}
-
-.pading-mercado{
-  padding-top: 4%;
-  padding-bottom: 4%;
-}
-
-.banner-estadio{
-  background-image: url('../img/partido.png');
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background-size: cover;
-  padding-top: 2%;
-  padding-bottom: 1%;
-}
-
-.count p{
-  color: #79cc00;
-}
-
-hr.lin-green{
-  margin-right: 92.5%;
-  width: 11%;
-  border-top: 6px solid #79cc00;
-}
-
-.perfil{
-  background-color: #f2f2f2;
-  color: #79cc00;
-}
-
-.width20{
-  width: 20%;
-}
-
-.perfil-jugadores{
-  background-color: #f2f2f2;
-  color: #79cc00;
-}
-
-button#Unete{
-  position: absolute;
-  padding-top: 0.8%;
-  padding-bottom: 0.8%;
-  right: 8.5%;
-  background: #79cc00;
-  width: 50%;
-  color: white;
-  border-radius: 11px;
-  top: 99%;
-  border: none;
-  font-size: 28px;
-  font-family: 'Rajdhani-Bold';
-}
-
-.banner-black{
-  background-color: #262626;
-}
-
-.banner-gris{
-  background-color: #333333;
-}
-
-.estilo-mercado{
-  background: white;
-  z-index: 10;
-  position: relative;
-}
-
-.opensans38px h1{
-  font-family: 'OpenSans-Bold';
-  font-size: 38px;
-}
-
-.opensans38px h2{
-  font-family: 'OpenSans-Bold';
-  font-size: 38px;
-}
-
-.color-black h1{
-  color: black;
-}
-
-.colorwhite p{
-  color: white;
-}
-
-.colorwhite span{
-  color: white;
-}
-
-.z-index{
-  z-index: 10;
-  position: relative;
-}
-
-.opensans16px p{
-  font-family: 'OpenSans';
-  font-size: 16px;
-}
-
-button.opensans16px{
-  font-family: 'OpenSans';
-  font-size: 16px;
-}
-
-.estilos-nosotros h1{
-  margin-bottom: 6%;
-  margin-top: 0;
-}
-
-.estilos-nosotros p{
-  margin-bottom: 3.5%;
-  padding-right: 6%;
-}
-
-.Leer-más{
-  padding-bottom: 2.5%;
-  width: 40%;
-  border: none;
-  color: white;
-  background: black;
-  padding-top: 2.5%;
-  margin-top: 4%;
-}
-
-.estilos-futbolistas h2{
-  padding-left: 31%;
-  text-align: right;
-  margin-top: 2%;
-}
-
-.estilos-futbolistas h1{
-   margin-top: 75%;
-   float: right;
-   margin-right: 19px;
-   text-align: right;
-}
-
-.color-green span{
-  color: #79cc00;
-}
-  
-img.diego-people{
-  border: 2px solid #79cc00;
-  margin-top: 4%;
-  position: relative;
-  right: 27px;
-}
-
-.margin-logos{
-  margin-bottom:  6%;
-  margin-top: 7%;
-}
-
-.padinull{
-  padding: 0; 
-}
-
-.logos-relative{
-  position: relative;
-  right:  30px;
-}
-
-img.map-mundial{
-  width: 95%;
-  margin-top: 17%;
-}
-
-.top-titles h1{
-  margin-top: 0;
-}
-
-.Rajdhanibold21xp h4{
-  font-size: 21px;
-  font-family: 'Rajdhani-Bold';
-}
-.Rajdhanibold60xp p{
-   font-size: 60px;
-  font-family: 'Rajdhani-Bold';
-}
-
-.color-green p{
-  color: #79cc00;
-}
-
-.pading-left-jugadores h4{
-  padding-left: 23%;
-  padding-right: 23%;
-}
-
-.opacity-absolute{
-  position: absolute;
-  width:  100%;
-  opacity: 0.7;
-  height: 100%;
-  background-color: #141b1f;
-}
-
-.Talento{
-  position: relative;;
-  z-index: 10;
-}
-
-.width-team{
-  width: 23%;
-  margin-right: 1%;
+
+
+@font-face {
+
+  font-family: 'Rajdhani-Light';
+
+  src: url('../fonts/Rajdhani-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Rajdhani-Light.woff') format('woff'), url('../fonts/Rajdhani-Light.ttf')  format('truetype'), url('../fonts/Rajdhani-Light.svg#Rajdhani-Light') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'OpenSans-Bold';
+
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf')  format('truetype'), url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Rajdhani-Regular';
+
+  src: url('../fonts/Rajdhani-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Rajdhani-Regular.woff') format('woff'), url('../fonts/Rajdhani-Regular.ttf')  format('truetype'), url('../fonts/Rajdhani-Regular.svg#Rajdhani-Regular') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'Rajdhani-Bold';
+
+  src: url('../fonts/Rajdhani-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Rajdhani-Bold.woff') format('woff'), url('../fonts/Rajdhani-Bold.ttf')  format('truetype'), url('../fonts/Rajdhani-Bold.svg#Rajdhani-Bold') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+
+
+@font-face {
+
+  font-family: 'OpenSans';
+
+  src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans.woff') format('woff'), url('../fonts/OpenSans.ttf')  format('truetype'), url('../fonts/OpenSans.svg#OpenSans') format('svg');
+
+  font-weight: normal;
+
+  font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+.navbar-opacity{
+
+	background-color: transparent;
+
+  position: absolute;
+
+  width: 100%;
+
+  border: none;
+
+  z-index: 10;
+
+  margin-top: 0.8%;
+
+}
+
+
+
+.slider-home{
+
+	background-image: url('../img/slider-home.jpg');
+
+	background-size: cover;
+
+	background-repeat: no-repeat;
+
+	padding-top: 30%;
+
+  padding-bottom: 30%;
+
+}
+
+
+
+.franja-verde{
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 34%;
+
+}
+
+
+
+img.logo-talentos{
+
+	width: 100%;
+
+}
+
+
+
+.pading-barra{
+
+	padding-top: 2.5%;
+
+}
+
+
+
+.estilogeneral>li>a{
+
+	color: white !important;
+
+	font-family: 'Rajdhani-Regular';
+
+	font-size: 18px;
+
+	padding: 10px 30px;
+
+}
+
+
+
+.absolute{
+
+	right: 0;
+
+  position: absolute;
+
+}
+
+
+
+.colorwhite{
+
+	color: white;
+
+}
+
+
+
+.RajdhaniLIGHT53px h2{
+
+	font-size: 53px;
+
+	font-family: 'Rajdhani-Light';
+
+	font-weight: 700;
+
+}
+
+
+
+.RajdhaniLIGHT53px span {
+
+  font-family: 'OpenSans-Bold';
+
+}
+
+
+
+.cuadro-opacity{
+
+	background-color: #15202a;
+
+  opacity: 0.7;
+
+  padding-left: 5%;
+
+  padding-right: 6%;
+
+  padding-bottom: 1%;
+
+}
+
+
+
+.div-green{
+
+	width: 100%;
+
+  background-color: #79cc00;
+
+  padding-top: 0.5%;
+
+  padding-bottom: 0.5%;
+
+  z-index: 10;
+
+  margin-top: 1%;
+
+  position: absolute;
+
+  right: 0%;
+
+}
+
+
+
+button.unete{
+
+	position: absolute;
+
+  padding-top: 0.5%;
+
+  padding-bottom: 0.5%;
+
+  right: 8.5%;
+
+  background: #161719;
+
+  width: 21%;
+
+  color: white;
+
+  border-radius: 20px;
+
+  top: 116%;
+
+  border: none;
+
+  font-size: 28px;
+
+  font-family: 'Rajdhani-Bold';
+
+}
+
+
+
+.text-center{
+
+  text-align: center;
+
+}
+
+
+
+.Rajdhanibold20px h1{
+
+  font-size: 62px;
+
+  font-family: 'Rajdhani-Bold';
+
+}
+
+
+
+.opensans21px p{
+
+  font-size: 21px;
+
+  font-family: 'OpenSans';
+
+}
+
+
+
+.colorgreenh1 h1{
+
+  color: #79cc00;
+
+}
+
+
+
+.colorgrayp p{
+
+  color: #c4c5c7;
+
+}
+
+
+
+.padinggeneral{
+
+  padding-top: 3%;
+
+  padding-bottom: 3%;
+
+}
+
+
+
+.estilos-header h2{
+
+  padding-left: 14%;
+
+  padding-right: 14%;
+
+}
+
+
+
+.estilos-header h1{
+
+  padding-bottom: 2%;
+
+}
+
+
+
+.estilos-header p {
+
+  padding-left: 14%;
+
+  padding-right: 14%;
+
+}
+
+
+
+.banner-futbolista{
+
+  background-image: url('../img/banner.-sobre.png');
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
+
+
+
+
+.opensansbold60px h1{
+
+  color: #79cc00;
+
+  font-family: 'OpenSans-Bold';
+
+  font-size: 60px;
+
+}
+
+
+
+.opensansbold60px h2{
+
+  font-family: 'OpenSans-Bold';
+
+  font-size: 60px;
+
+}
+
+
+
+.pading-mercado{
+
+  padding-top: 4%;
+
+  padding-bottom: 4%;
+
+}
+
+
+
+.banner-estadio{
+
+  background-image: url('../img/partido.png');
+
+  padding-top: 4%;
+
+  padding-bottom: 4%;
+
+  background-size: cover;
+
+  padding-top: 2%;
+
+  padding-bottom: 1%;
+
+}
+
+
+
+.count p{
+
+  color: #79cc00;
+
+}
+
+
+
+hr.lin-green{
+
+  margin-right: 92.5%;
+
+  width: 11%;
+
+  border-top: 6px solid #79cc00;
+
+}
+
+
+
+.perfil{
+
+  background-color: #f2f2f2;
+
+  color: #79cc00;
+
+}
+
+
+
+.width20{
+
+  width: 20%;
+
+}
+
+
+
+.perfil-jugadores{
+
+  background-color: #f2f2f2;
+
+  color: #79cc00;
+
+}
+
+
+
+button#Unete{
+
+  position: absolute;
+
+  padding-top: 0.8%;
+
+  padding-bottom: 0.8%;
+
+  right: 8.5%;
+
+  background: #79cc00;
+
+  width: 50%;
+
+  color: white;
+
+  border-radius: 11px;
+
+  top: 99%;
+
+  border: none;
+
+  font-size: 28px;
+
+  font-family: 'Rajdhani-Bold';
+
+}
+
+
+
+.banner-black{
+
+  background-color: #262626;
+
+}
+
+
+
+.banner-gris{
+
+  background-color: #333333;
+
+}
+
+
+
+.estilo-mercado{
+
+  background: white;
+
+  z-index: 10;
+
+  position: relative;
+
+}
+
+
+
+.opensans38px h1{
+
+  font-family: 'OpenSans-Bold';
+
+  font-size: 38px;
+
+}
+
+
+
+.opensans38px h2{
+
+  font-family: 'OpenSans-Bold';
+
+  font-size: 38px;
+
+}
+
+
+
+.color-black h1{
+
+  color: black;
+
+}
+
+
+
+.colorwhite p{
+
+  color: white;
+
+}
+
+
+
+.colorwhite span{
+
+  color: white;
+
+}
+
+
+
+.z-index{
+
+  z-index: 10;
+
+  position: relative;
+
+}
+
+
+
+.opensans16px p{
+
+  font-family: 'OpenSans';
+
+  font-size: 16px;
+
+}
+
+
+
+button.opensans16px{
+
+  font-family: 'OpenSans';
+
+  font-size: 16px;
+
+}
+
+
+
+.estilos-nosotros h1{
+
+  margin-bottom: 6%;
+
+  margin-top: 0;
+
+}
+
+
+
+.estilos-nosotros p{
+
+  margin-bottom: 3.5%;
+
+  padding-right: 6%;
+
+}
+
+
+
+.Leer-más{
+
+  padding-bottom: 2.5%;
+
+  width: 40%;
+
+  border: none;
+
+  color: white;
+
+  background: black;
+
+  padding-top: 2.5%;
+
+  margin-top: 4%;
+
+}
+
+
+
+.estilos-futbolistas h2{
+
+  padding-left: 31%;
+
+  text-align: right;
+
+  margin-top: 2%;
+
+}
+
+
+
+.estilos-futbolistas h1{
+
+   margin-top: 75%;
+
+   float: right;
+
+   margin-right: 19px;
+
+   text-align: right;
+
+}
+
+
+
+.color-green span{
+
+  color: #79cc00;
+
+}
+
+  
+
+img.diego-people{
+
+  border: 2px solid #79cc00;
+
+  margin-top: 4%;
+
+  position: relative;
+
+  right: 27px;
+
+}
+
+
+
+.margin-logos{
+
+  margin-bottom:  6%;
+
+  margin-top: 7%;
+
+}
+
+
+
+.padinull{
+
+  padding: 0; 
+
+}
+
+
+
+.logos-relative{
+
+  position: relative;
+
+  right:  30px;
+
+}
+
+
+
+img.map-mundial{
+
+  width: 95%;
+
+  margin-top: 17%;
+
+}
+
+
+
+.top-titles h1{
+
+  margin-top: 0;
+
+}
+
+
+
+.Rajdhanibold21xp h4{
+
+  font-size: 21px;
+
+  font-family: 'Rajdhani-Bold';
+
+}
+
+.Rajdhanibold60xp p{
+
+   font-size: 60px;
+
+  font-family: 'Rajdhani-Bold';
+
+}
+
+
+
+.color-green p{
+
+  color: #79cc00;
+
+}
+
+
+
+.pading-left-jugadores h4{
+
+  padding-left: 23%;
+
+  padding-right: 23%;
+
+}
+
+
+
+.opacity-absolute{
+
+  position: absolute;
+
+  width:  100%;
+
+  opacity: 0.7;
+
+  height: 100%;
+
+  background-color: #141b1f;
+
+}
+
+
+
+.Talento{
+
+  position: relative;
+
+  z-index: 10;
+
+}
+
+.club-teams {
+
+  display: flex;
+
+  justify-content: space-around;
+  
+}
+
+.container-circle {
+  
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-bottom: 50px;
+
+}
+
+.container-circle img {
+  
+  position: absolute;
+
+}
+
+.circle {
+
+  position: absolute;
+
+  width: 65px;
+
+  height: 65px;
+  
+  border-radius: 50%;
+
+  background: black;
+  
+  opacity: 0.8;
+
+}
+
+.width-team{
+  
+  width: 23%;
+
+  border: 1px solid #eee; 
+  
+}
+
+.pt-5 {
+
+  padding-top: 5%;
+
+}
+
+
+.opensans21px h3 {
+
+  font-size: 21px;
+
+  font-family: 'OpenSans';
+
+}
+
+
+.perfil p {
+  
+  /*En la tasks dice 21px pero me parece que en PDF no es ese el tamaño*/
+  font-size: 16px;
+
+  font-family: 'Rajdhani-Bold';
+
+  margin: 0;
+  
+  padding: 6px;
 }
